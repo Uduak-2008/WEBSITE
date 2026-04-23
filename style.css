@@ -9,23 +9,31 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-#menuToggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    font-size: 30px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: black;
     color: beige;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 6px;
-    cursor: pointer;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 1000;
 }
-#menuToggle button {
+.logo {
+    color: yellow;
+    margin: 0;
+}
+#menuToggle {
     font-size: 24px;
-    padding: 8px 12px;
+    background: none;
+    border: none;
     cursor: pointer;
+    color: yellow;
+}
+.content {
+    padding-top: 80px;
 }
 #menu{
     position: fixed;
