@@ -1,7 +1,7 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 body{
     background: linear-gradient(to right, yellow,rgb(231, 231, 122));
@@ -43,6 +43,8 @@ body{
     height: 100vh;
     background-color: black;
     color: beige;
+    font-size: 18px;
+    border-bottom: 1px solid #f0ed65;
     padding:60px 20px;
     z-index: 999;
 }
@@ -50,9 +52,6 @@ body{
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: beige;
-    font-size: 18px;
-    border-bottom: 1px solid #f0ed65;
 }
 .menu-links a:hover{
     background: #f5ea59;
